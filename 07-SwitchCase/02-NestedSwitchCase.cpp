@@ -3,17 +3,21 @@ using namespace std;
 
 int main() {
 
-    int n=2;
+    int n=1;
     char ch = '1';
 
-    switch (n)
+    switch (ch)
     {
     case 1:
         cout<<"First Case";
         break;
     
-    case 2:
-        cout<<"Second Case";
+    case '1': switch (n)
+                {
+                case 1:
+                    cout<<"Value of Number is: "<<n<<endl;
+                    break;
+                }
         break;
     
     default:
